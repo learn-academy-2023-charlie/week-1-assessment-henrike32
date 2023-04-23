@@ -52,8 +52,8 @@ console.log(languages[index])
 
 // --------------------4) What will this log?
 
-const weekendDays = ["saturday", "sunday"]
-console.log(weekendDays.toUpperCase())
+// const weekendDays = ["saturday", "sunday"]
+// console.log(weekendDays.toUpperCase())
 
 // a) Your answer: "SATURDAY, "SUNDAY"
 // b) Verify and explain: TypeError: weekendDays.toUpperCase is not a function //
@@ -65,7 +65,11 @@ console.log(weekendDays.toUpperCase())
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+console.log(typeof dataTypes.length)
 
-// a) Your answer: 
-// b) Verify and explain:
+// a) Your answer: I haven't seen the `typeof` operator so I don't know what will happen.
+// b) Verify and explain: `number` was the output given. After doing some research on the
+// suggested websites at the syllabus (w3schools) I can say that `typeof` is an operator that
+// is being used to find what type of data type the array `dataType` has, so `dataTypes.length`
+// will give the number of elements in the array which is 4, and the operator `typeof` will return
+// the data type of `dataTypes.length`. Which is a number, the final output then is `number`.
